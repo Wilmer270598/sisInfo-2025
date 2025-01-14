@@ -1,0 +1,14 @@
+.card {
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.jumbotron {
+    background-image: url('/assets/images/banner.jpg');
+    background-size: cover;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+}
